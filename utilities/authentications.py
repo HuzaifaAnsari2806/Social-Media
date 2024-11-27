@@ -15,7 +15,7 @@ class CustomAuthentication:
         # print()
         # print("--------------------------------------------->")
         if (
-            request.path.startswith("/admin/")
+            request.path.startswith("/api/admin/")
             or request.path.endswith("nt/")
             or request.path.startswith("/media")
             or request.path.startswith("/campaign/")

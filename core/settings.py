@@ -69,6 +69,7 @@ INSTALLED_APPS = [
     "rest_framework",
     # Created Apps
     "accounts",
+    "socialmedia",
 ]
 
 MIDDLEWARE = [
@@ -174,3 +175,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+CLIENT_ID = 1263000614915491
+
+CLIENT_SECRET = "689c375c778c26a1ab86e86a4f79b539"

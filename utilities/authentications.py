@@ -18,8 +18,6 @@ class CustomAuthentication:
             request.path.startswith("/api/admin/")
             or request.path.endswith("nt/")
             or request.path.startswith("/media")
-            or request.path.startswith("/campaign/")
-            or request.path.startswith("/donors/")
         ):
             request.thisUser = None
             response = self.get_response(request)
